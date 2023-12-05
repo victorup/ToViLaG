@@ -1,0 +1,33 @@
+# set pretrained as a file path or an url
+pretrained: '/path/to/BLIP/checkpoints/model_base_caption_capfilt_large.pth'
+# pretrained: '/path/to/BLIP/checkpoints/model_large_caption.pth'  
+detox_model: true
+
+# size of vit model; base or large
+# vit base model
+vit: 'base'
+vit_grad_ckpt: False
+vit_ckpt_layer: 0
+batch_size: 20
+init_lr: 1e-5
+
+# vit large model
+# vit: 'large'
+# vit_grad_ckpt: True
+# vit_ckpt_layer: 5
+# batch_size: 20  # 16
+# init_lr: 2e-6
+
+image_size: 384
+
+# generation configs
+max_length: 20  
+min_length: 5
+num_beams: 3
+prompt: 'a picture of '
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 1
+
