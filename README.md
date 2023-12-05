@@ -153,6 +153,6 @@ Infer the detoxified text for toxic images:
 python method/BLIP/inference.py --image_path /path/to/toxic_images/ --model_size large --device 1
 ```
 
----
 
+## Contact
 If you have any problems on implementation or any other questions, feel free to post a issue or email me (wangxinpeng@tongji.edu.cn). 
