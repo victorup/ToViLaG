@@ -1,6 +1,6 @@
 # ToViLaG
 
-Official script of EMNLP 2023 paper: [ToViLaG: Your Visual-Language Generative Model is Also An Evildoer](https://github.com/victorup/ToViLaG).
+Official script of EMNLP 2023 paper: [ToViLaG: Your Visual-Language Generative Model is Also An Evildoer](https://arxiv.org/abs/2312.11523).
 
 ## Metrics
 ### WInToRe Metric
