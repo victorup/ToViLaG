@@ -133,8 +133,6 @@ Image-to-text generation models: [GIT](https://github.com/microsoft/GenerativeIm
 
 Text-to-image generation models: [Stable Diffusion](https://github.com/runwayml/stable-diffusion), [LAFITE](https://github.com/drboog/Lafite), [CLIP-GEN](https://github.com/HFAiLab/clip-gen)
 
-<img src="../../%E5%9B%BE%E7%89%87%E4%BF%9D%E5%AD%98/ToViLaG_EMNLP2023.assets/image-20231101003414256.png" alt="image-20231101003414256" style="zoom:50%;" />
-
 ## SMIB Detoxification Method
 
 We apply the SMIB method into three models in our paper: [GIT](https://github.com/microsoft/GenerativeImage2Text), [GRIT](https://github.com/davidnvq/grit), and [BLIP](https://github.com/salesforce/BLIP).
