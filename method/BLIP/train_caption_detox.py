@@ -52,7 +52,7 @@ def train(model, data_loader, detox_optimizers, clf_optimizers, epoch, device):
             p.requires_grad = False
         loss, toxicity_logits = model(image, caption)
         clf_prob = F.softmax(toxicity_logits, dim=-1)
-        detox_loss = torch.mean(clf_prob[:, -1] / 0.5 - torch.sum(torch.square(clf_prob), dim=1))
+        detox_loss = torch.mean(clf_prob[:, -1] / 0.5 - torch.sum(torch.square(clf_prob) / 0.5, dim=1))
         total_loss = loss + 0.01 * detox_loss
         detox_optimizers.zero_grad()
         total_loss.backward()
